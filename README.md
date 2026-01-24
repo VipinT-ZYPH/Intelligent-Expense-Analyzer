@@ -54,9 +54,10 @@ This project focuses on **product thinking, system design, and real-world data h
         Update User Profile
 
 
-  Clear separation of: 
-     - 📊 Historical View 
-     - 📈 Monthly Analysis
+  ### Separation of Modes
+
+- 📊 **Historical View** — Read-only analysis of long-term spending patterns  
+- 📈 **Monthly Analysis** — Anomaly detection based on personal historical baseline
 
 
 ## 📂 Project Structure
@@ -77,20 +78,20 @@ Intelligent Expense Analyzer/
 ```
 
 
-# **▶️ How to Run Locally**
-
-  **Create virtual environment**
+## **▶️ How to Run Locally**
+```
+ # **Create virtual environment**
      python -m venv venv
 
-  **Activate (Windows)**
+ # **Activate (Windows)**
      venv\Scripts\activate
 
-  **Install dependencies**
+ # **Install dependencies**
      pip install -r requirements.txt
 
-  **Run the app**
+ # **Run the app**
      streamlit run app.py
-
+```
 # **Current Limitations (Intentional)**
    •CSV-based input only (manual logging planned)
    •No authentication (planned in Phase 2)
