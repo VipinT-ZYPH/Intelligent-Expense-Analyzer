@@ -6,7 +6,7 @@ This project focuses on **product thinking, system design, and real-world data h
 
 
 
-### 🚀 Features (v1)
+# **🚀 Features (v1)**
 
 ### 🔐 Soft User Identity
 - Email-based identity (no dummy user IDs)
@@ -79,16 +79,16 @@ Intelligent Expense Analyzer/
 
 # **▶️ How to Run Locally**
 
-  # Create virtual environment
+  **Create virtual environment**
      python -m venv venv
 
-  # Activate (Windows)
+  **Activate (Windows)**
      venv\Scripts\activate
 
-  # Install dependencies
+  **Install dependencies**
      pip install -r requirements.txt
 
-  # Run the app
+  **Run the app**
      streamlit run app.py
 
 # **Current Limitations (Intentional)**
