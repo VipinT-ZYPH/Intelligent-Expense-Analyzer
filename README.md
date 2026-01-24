@@ -93,16 +93,17 @@ Intelligent Expense Analyzer/
      streamlit run app.py
 ```
 # **Current Limitations (Intentional)**
-   •CSV-based input only (manual logging planned)
+```   •CSV-based input only (manual logging planned)
    •No authentication (planned in Phase 2)
    •No financial advice or investment recommendations
-
+```
 # **Roadmap**
-   •User authentication (OTP / OAuth)
+  ``` •User authentication (OTP / OAuth)
    •Manual transaction logging
    •Profile insights (income-aware analysis)
    •Database-backed storage
    •Richer anomaly explanations
+```
 
 # **🧑‍💻 Author**
   Built by Vipin
