@@ -1,4 +1,4 @@
-**💸 Intelligent Expense Analyzer**
+# **💸 Intelligent Expense Analyzer**
 
 An end-to-end expense analysis application that builds **personalized spending profiles** and detects **monthly anomalies** based on a user’s own historical behavior.
 
@@ -6,7 +6,7 @@ This project focuses on **product thinking, system design, and real-world data h
 
 
 
-**🚀 Features (v1)**
+# **🚀 Features (v1)**
 
   **🔐 Soft User Identity**
      - Email-based identity (no dummy user IDs)
@@ -29,7 +29,7 @@ This project focuses on **product thinking, system design, and real-world data h
 
 
 
-  **🛠️ Tech Stack**
+# **🛠️ Tech Stack**
 
       - Python
       - Pandas – data processing
@@ -39,7 +39,7 @@ This project focuses on **product thinking, system design, and real-world data h
 
 
 
-  **🧱 System Design (High Level)**
+# **🧱 System Design (High Level)**
 
             User Email
                  ↓
@@ -60,7 +60,7 @@ This project focuses on **product thinking, system design, and real-world data h
 
 
 
- **📂 Project Structure**
+# **📂 Project Structure**
 
 Intelligent Expense Analyzer/
 ├── app.py
@@ -77,7 +77,7 @@ Intelligent Expense Analyzer/
 
 
 
- **▶️ How to Run Locally**
+# **▶️ How to Run Locally**
 
   # Create virtual environment
      python -m venv venv
@@ -91,18 +91,18 @@ Intelligent Expense Analyzer/
   # Run the app
      streamlit run app.py
 
-**Current Limitations (Intentional)**
+# **Current Limitations (Intentional)**
    •CSV-based input only (manual logging planned)
    •No authentication (planned in Phase 2)
    •No financial advice or investment recommendations
 
-**Roadmap**
+# **Roadmap**
    •User authentication (OTP / OAuth)
    •Manual transaction logging
    •Profile insights (income-aware analysis)
    •Database-backed storage
    •Richer anomaly explanations
 
-**🧑‍💻 Author**
+# **🧑‍💻 Author**
   Built by Vipin
   Focused on real-world ML systems, data engineering, and product design.
