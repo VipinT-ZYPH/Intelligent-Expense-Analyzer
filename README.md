@@ -74,7 +74,7 @@ Intelligent Expense Analyzer/
 ├── requirements.txt
 └── README.md
 
-
+```
 
 
 # **▶️ How to Run Locally**
