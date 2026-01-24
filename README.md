@@ -6,26 +6,26 @@ This project focuses on **product thinking, system design, and real-world data h
 
 
 
-# **🚀 Features (v1)**
+### 🚀 Features (v1)
 
-  **🔐 Soft User Identity**
-     - Email-based identity (no dummy user IDs)
-     - Persistent user data across sessions
+### 🔐 Soft User Identity
+- Email-based identity (no dummy user IDs)
+- Persistent user data across sessions
 
-  **📊 Historical Expense Tracking**
-     - Stores transaction history incrementally
-     - Visualizes long-term spending trends
-     - Read-only historical mode (no accidental changes)
+### 📊 Historical Expense Tracking
+- Stores transaction history incrementally
+- Visualizes long-term spending trends
+- Read-only historical mode (no accidental changes)
 
- **📈 Monthly Analysis & Anomaly Detection**
-     - Upload current month transactions
-     - Detects anomalies based on *personal historical patterns*
-     - Severity-based insights (percentage deviation, impact level)
+### 📈 Monthly Analysis & Anomaly Detection
+- Upload current month transactions
+- Detects anomalies based on **personal historical patterns**
+- Severity-based insights (percentage deviation, impact level)
 
-  **🧠 Personalized Modeling**
-     - Builds a baseline profile per user
-     - Learns what is “normal” for each individual
-     - Avoids generic thresholds
+### 🧠 Personalized Modeling
+- Builds a baseline profile per user
+- Learns what is “normal” for each individual
+- Avoids generic thresholds
 
 
 
@@ -59,18 +59,18 @@ This project focuses on **product thinking, system design, and real-world data h
      - 📈 Monthly Analysis
 
 
+## 📂 Project Structure
 
-# **📂 Project Structure**
-
+```text
 Intelligent Expense Analyzer/
 ├── app.py
 ├── services/
-│ ├── profile.py
-│ ├── anomaly.py
-│ └── init.py
+│   ├── profile.py
+│   ├── anomaly.py
+│   └── __init__.py
 ├── data/
-│ ├── history/ (ignored in Git)
-│ └── profiles/ (ignored in Git)
+│   ├── history/      (ignored in Git)
+│   └── profiles/    (ignored in Git)
 ├── requirements.txt
 └── README.md
 
