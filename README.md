@@ -60,7 +60,7 @@ This project focuses on **product thinking, system design, and real-world data h
 - 📈 **Monthly Analysis** — Anomaly detection based on personal historical baseline
 
 
-## 📂 Project Structure
+# **📂 Project Structure**
 
 ```text
 Intelligent Expense Analyzer/
@@ -78,7 +78,7 @@ Intelligent Expense Analyzer/
 ```
 
 
-## **▶️ How to Run Locally**
+# **▶️ How to Run Locally**
 ```
  # **Create virtual environment**
      python -m venv venv
