@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordRequestForm
+from services.analyzer import analyze_expenses
 
 import models, schemas, crud
 from database import engine
@@ -45,3 +46,15 @@ def add_expense(
     current_user=Depends(get_current_user)
 ):
     return crud.create_expense(db, expense.amount, expense.category, current_user.id)
+
+
+from services.analyzer import analyze_expenses
+from dependencies import get_current_user
+from models import User
+
+@app.get("/analysis/summary")
+def expense_summary(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    return analyze_expenses(db, current_user.id)
