@@ -11,6 +11,11 @@ from dependencies import get_db, get_current_user
 from auth import create_access_token
 from services.analyzer import analyze_expenses
 
+from models import Base
+
+Base.metadata.create_all(bind=engine)
+
+
 # ----------------------------------------
 # App init
 # ----------------------------------------
@@ -105,3 +110,10 @@ def expense_summary(
     user=Depends(get_current_user)
 ):
     return analyze_expenses(db, user.id)
+
+
+
+@app.on_event("startup")
+def startup():
+    Base.metadata.create_all(bind=engine)
+
