@@ -10,13 +10,18 @@ st.title("Insights")
 
 data = get_summary()
 
-if not data or "category_breakdown" not in data:
+if not data or not data.get("by_category"):
     st.info("No data available yet")
 else:
-    df = pd.DataFrame(data["category_breakdown"])
+    breakdown = data["by_category"]
+
+    df = pd.DataFrame({
+        "category": breakdown.keys(),
+        "total": breakdown.values()
+    })
 
     st.subheader("Category Breakdown")
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width="stretch")
 
     fig, ax = plt.subplots()
     ax.bar(df["category"], df["total"])
