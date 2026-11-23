@@ -1,5 +1,7 @@
 # **💸 Intelligent Expense Analyzer**
 
+GROWTHX - G8QDG6
+
 An end-to-end expense analysis application that builds **personalized spending profiles** and detects **monthly anomalies** based on a user’s own historical behavior.
 
 This project focuses on **product thinking, system design, and real-world data handling**, rather than simple rule-based expense categorization.
